@@ -10,6 +10,8 @@ Size: 3,000 labeled issue reports.
 Source Projects: The issue reports are extracted from five open-source projects.
 Collection Period: January 2022 to September 2023 (21 months).
 
+Run test and train files for the dataset. Click here to view the [issues-test](./datasets/nlbse24/issues_test.csv)
+and [issues-train](./datasets/nlbse24/issues_train.csv)
 # Issue Ticket Tagger Dataset
 The Issue Ticket Tagger dataset comprises 30,000 labeled issues categorized into three distinct
 groups based on their assigned labels. Approximately 10,000 issues are labeled as 'bug,' denoting 
