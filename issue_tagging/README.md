@@ -17,7 +17,7 @@ code errors or malfunctions; another 10,000 are labeled as 'enhancement,' sugges
 improvements and new feature additions; and the remaining 10,000 are labeled as 'question,' which
 represents inquiries or uncertainties raised by users or developers.
 
-For more information on how to use this dataset, please refer to the README(issue_ticket_tagger.txt) in the sub-package.
+For more information on how to use this dataset, please refer to the [file](issue_ticket_tagger.txt) in the sub-package.
 
 # MulDIC dataset
 The MulDIC dataset is a multimodal dataset comprising issues sourced from four popular projects: VS Code, Kubernetes, Flutter, and Roslyn. The dataset includes a total of 460,293 issue reports from these projects, with each issue categorized as either 'bug' or 'feature'.
