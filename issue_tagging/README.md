@@ -23,3 +23,12 @@ For more information on how to use this dataset, please refer to the [file](./da
 
 # MulDIC dataset
 The MulDIC dataset is a multimodal dataset comprising issues sourced from four popular projects: VS Code, Kubernetes, Flutter, and Roslyn. The dataset includes a total of 460,293 issue reports from these projects, with each issue categorized as either 'bug' or 'feature'.
+
+# evaluation
+Here is the evaluation of all the datasets:
+
+#MulDIC
+Run the following files to evaluate the MulDIC datasets
+- `lvlm_gemini_pro.py`, This Python script appears to utilize the google.generativeai library, specifically the GenAI module, to interact with Google's Generative AI models, particularly the gemini-pro-vision model.
+  
+- `lvlm_gpt_vision.py`, This Python script utilizes the OpenAI API to generate responses to issue titles and code snippets extracted from a dataset.
