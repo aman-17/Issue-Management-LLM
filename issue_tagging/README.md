@@ -32,9 +32,17 @@ Run the following files to evaluate the MulDIC datasets
 - `lvlm_gemini_pro.py`, This Python script appears to utilize the google.generativeai library, specifically the GenAI module, to interact with Google's Generative AI models, particularly the gemini-pro-vision model.
   
 - `lvlm_gpt_vision.py`, This Python script utilizes the OpenAI API to generate responses to issue titles and code snippets extracted from a dataset.
+For more information onthis dataset, please refer to the [here](https://github.com/chang26/MulDIC) in the sub-package.
 
 #Issue Ticket Tagger
-Run the following files to evaluate the MulDIC datasets
+Run the following files to evaluate the Issue Ticket Tagger datasets
+- `llm_gemini_pro.py`, This Python script appears to utilize the Gemini Pro model to generate labels for a list of issue texts extracted from a file. The generated labels are then saved for further analysis or use.
+  
+- `llm_gpt3.py`, This Python script utilizes the GPT-3.5 Turbo model from OpenAI to generate labels for a list of issue texts extracted from a file.
+The output of this script is a series of generated responses printed to the console and saved in the ticket_tagger_gpt3.json file.
+
+#nlbse
+Run the following files to evaluate the nlbse datasets
 - `llm_gemini_pro.py`, This Python script appears to utilize the Gemini Pro model to generate labels for a list of issue texts extracted from a file. The generated labels are then saved for further analysis or use.
   
 - `llm_gpt3.py`, This Python script utilizes the GPT-3.5 Turbo model from OpenAI to generate labels for a list of issue texts extracted from a file.
