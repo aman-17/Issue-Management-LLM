@@ -34,16 +34,17 @@ Run the following files to evaluate the MulDIC datasets
 - `lvlm_gpt_vision.py`, This Python script utilizes the OpenAI API to generate responses to issue titles and code snippets extracted from a dataset.
 For more information onthis dataset, please refer to the [here](https://github.com/chang26/MulDIC) in the sub-package.
 
-#Issue Ticket Tagger
-Run the following files to evaluate the Issue Ticket Tagger datasets
+#Issue Ticket Tagger:
+run the following files to evaluate the Issue Ticket Tagger datasets
 - `llm_gemini_pro.py`, This Python script appears to utilize the Gemini Pro model to generate labels for a list of issue texts extracted from a file. The generated labels are then saved for further analysis or use.
   
 - `llm_gpt3.py`, This Python script utilizes the GPT-3.5 Turbo model from OpenAI to generate labels for a list of issue texts extracted from a file.
 The output of this script is a series of generated responses printed to the console and saved in the ticket_tagger_gpt3.json file.
 
-#nlbse
-Run the following files to evaluate the nlbse datasets
-- `llm_gemini_pro.py`, This Python script appears to utilize the Gemini Pro model to generate labels for a list of issue texts extracted from a file. The generated labels are then saved for further analysis or use.
+#nlbse:
+run the following files to evaluate the nlbse datasets
+- `issueclassificationgpt.ipynb`, This script uses Installation of Required Libraries along with that Importing Libraries and Loading Data.
   
-- `llm_gpt3.py`, This Python script utilizes the GPT-3.5 Turbo model from OpenAI to generate labels for a list of issue texts extracted from a file.
+- `nlbse_eval.py`, This code snippet performs several tasks related to data cleaning and interaction with the OpenAI GPT-3 API for generating responses.
 The output of this script is a series of generated responses printed to the console and saved in the ticket_tagger_gpt3.json file.
+- `requirements.txt`,  It provided lists specific versions of Python packages as dependencies. 
