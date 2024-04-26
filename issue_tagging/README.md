@@ -27,7 +27,7 @@ The MulDIC dataset is a multimodal dataset comprising issues sourced from four p
 # evaluation
 Here is the evaluation of all the datasets:
 
-#MulDIC
+# MulDIC
 Run the following files to evaluate the MulDIC datasets
 
 - `lvlm_gemini_pro.py`, This Python script appears to utilize the google.generativeai library, specifically the GenAI module, to interact with Google's Generative AI models, particularly the gemini-pro-vision model.
@@ -36,14 +36,14 @@ Run the following files to evaluate the MulDIC datasets
 
 For more information ont his dataset, please refer to the [here](https://github.com/chang26/MulDIC) in the sub-package.
 
-#Issue Ticket Tagger:
+# Issue Ticket Tagger:
 run the following files to evaluate the Issue Ticket Tagger datasets
 - `llm_gemini_pro.py`, This Python script appears to utilize the Gemini Pro model to generate labels for a list of issue texts extracted from a file. The generated labels are then saved for further analysis or use.
   
 - `llm_gpt3.py`, This Python script utilizes the GPT-3.5 Turbo model from OpenAI to generate labels for a list of issue texts extracted from a file.
 The output of this script is a series of generated responses printed to the console and saved in the ticket_tagger_gpt3.json file.
 
-#nlbse:
+# nlbse:
 run the following files to evaluate the nlbse datasets
 - `issueclassificationgpt.ipynb`, This script uses Installation of Required Libraries along with that Importing Libraries and Loading Data.
   
